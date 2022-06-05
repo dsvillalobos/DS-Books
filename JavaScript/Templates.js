@@ -5,7 +5,7 @@ class Header extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
             <header class="Header">
-                <h1 class="Title animate__bounceIn">
+                <h1 class="Title">
                     <a href="javascript:void(0)" onclick="openSidenav()">
                         <i class="bi bi-book-fill"></i>
                         DS Books
