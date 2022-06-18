@@ -40,6 +40,14 @@ class Sidenav extends HTMLElement {
                 <a class="Option" href="./Fiction.html">
                     Fiction
                 </a>
+                <!-- Romance -->
+                <a class="Option" href="./Romance.html">
+                    Romance
+                </a>
+                <!-- Thriller -->
+                <a class="Option" href="./Thriller.html">
+                    Thriller
+                </a>
             </div>
         `
     }
