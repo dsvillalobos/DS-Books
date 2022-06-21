@@ -6,6 +6,8 @@
         </title>
         <!-- CSS -->
         <link rel="stylesheet" href="./CSS/styles.css">
+        <!-- Book Description CSS -->
+        <link rel="stylesheet" href="./CSS/Book-Description.css">
         <!-- Animate.css -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
         <!-- Favicon -->
@@ -33,42 +35,44 @@
         <!-- 1st Book Row -->
         <div class="Book-Row">
             <!-- Treasure Island -->
-            <a id="Treasure-Island" href="./Books/Adventure/Treasure Island.pdf">
+            <a href="javascript:void(0)" onclick="openTreasureIsland()">
                 <img class="First-Book" src="./Book-Cover/Treasure-Island-Book-Cover.jpg" alt="Treasure Island">
             </a>
             <!-- 20000 Leagues Under the Sea -->
-            <a id="20000-Leagues-Under-the-Sea" href="./Books/Adventure/20000 Leagues Under the Sea.pdf">
+            <a href="javascript:void(0)" onclick="open20000LeaguesUndertheSea()">
                 <img class="Second-Book" src="./Book-Cover/20000-Leagues-Under-The-Sea-Book-Cover.jpg" alt="20000 Leagues Under the Sea">
             </a>
         </div>
         <!-- 2nd Book Row -->
         <div class="Book-Row">
             <!-- The War of The Worlds -->
-            <a id="The-War-of-the-Worlds" href="./Books/Adventure/The War of the Worlds.pdf">
+            <a href="javascript:void(0)" onclick="openTheWarofTheWorlds()">
                 <img class="First-Book" src="./Book-Cover/The-War-of-the-Worlds-Book-Cover.jpg" alt="The War of The Worlds">
             </a>
             <!-- Around the World in Eighty Days -->
-            <a id="Around-the-World-in-Eighty-Days" href="./Books/Adventure/Around the World in 80 Days.pdf">
+            <a href="javascript:void(0)" onclick="openAroundtheWorldinEightyDays()">
                 <img class="Second-Book" src="./Book-Cover/Around-the-World-in-Eighty-Days-Book-Cover.jpg" alt="Around the World in Eighty Days">
             </a>
         </div>
         <!-- 3rd Book Row -->
         <div class="Book-Row">
             <!-- The Alchemist -->
-            <a id="The-Alchemist" href="./Books/Adventure/The Alchemist.pdf">
+            <a href="javascript:void(0)" onclick="openTheAlchemist()">
                 <img class="First-Book" src="./Book-Cover/The-Alchemist-Book-Cover.jpg" alt="The Alchemist">
             </a>
             <!-- The Martian -->
-            <a id="The-Martian" href="./Books/Adventure/The Martian.pdf">
+            <a href="javascript:void(0)" onclick="openTheMartian()">
                 <img class="Second-Book" src="./Book-Cover/The-Martian-Book-Cover.jpg" alt="The Martian">
             </a>
         </div>
+        <!-- Book Description -->
+        <import-book-description></import-book-description>
         <!-- JavaScript -->
         <!-- Templates -->
         <script src="./JavaScript/Templates.js"></script>
         <!-- Sidenav -->
         <script src="./JavaScript/Sidenav.js"></script>
-        <!-- Android Books -->
-        <script src="./JavaScript/Android-Categories/Adventure.js"></script>
+        <!-- Books Descriptions -->
+        <script src="./JavaScript/Book-Description/Adventure.js"></script>
     </body>
 </html>

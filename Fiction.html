@@ -6,6 +6,8 @@
         </title>
         <!-- CSS -->
         <link rel="stylesheet" href="./CSS/styles.css">
+        <!-- Book Description CSS -->
+        <link rel="stylesheet" href="./CSS/Book-Description.css">
         <!-- Animate.css -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
         <!-- Favicon -->
@@ -33,42 +35,44 @@
         <!-- 1st Book Row -->
         <div class="Book-Row">
             <!-- 1984 -->
-            <a id="1984" href="./Books/Fiction/1984.pdf">
+            <a href="javascript:void(0)" onclick="open1984()">
                 <img class="First-Book" src="./Book-Cover/1984-Book-Cover.jpg" alt="1984">
             </a>
             <!-- The Invisible Man -->
-            <a id="The-Invisible-Man" href="./Books/Fiction/The Invisible Man.pdf">
+            <a href="javascript:void(0)" onclick="openTheInvisibleMan()">
                 <img class="Second-Book" src="./Book-Cover/The-Invisible-Man-Book-Cover.jpg" alt="The Invisible Man">
             </a>
         </div>
         <!-- 2nd Book Row -->
         <div class="Book-Row">
             <!-- The Book Thief -->
-            <a id="The-Book-Thief" href="./Books/Fiction/The Book Thief.pdf">
+            <a href="javascript:void(0)" onclick="openTheBookThief()">
                 <img class="First-Book" src="./Book-Cover/The-Book-Thief-Book-Cover.jpg" alt="The Book Thief">
             </a>
             <!-- Fahrenheit 451 -->
-            <a id="Fahrenheit-451" href="./Books/Fiction/Fahrenheit 451.pdf">
+            <a href="javascript:void(0)" onclick="openFahrenheit451()">
                 <img class="Second-Book" src="./Book-Cover/Fahrenheit-451-Book-Cover.jpg" alt="Fahrenheit 451">
             </a>
         </div>
         <!-- 3rd Book Row -->
         <div class="Book-Row">
             <!-- The Martian -->
-            <a id="The-Martian" href="./Books/Fiction/The Martian.pdf">
+            <a href="javascript:void(0)" onclick="openTheMartian()">
                 <img class="First-Book" src="./Book-Cover/The-Martian-Book-Cover.jpg" alt="The Martian">
             </a>
             <!-- Pride and Prejudice -->
-            <a id="Pride-and-Prejudice" href="./Books/Fiction/Pride and Prejudice.pdf">
+            <a href="javascript:void(0)" onclick="openPrideandPrejudice()">
                 <img class="Second-Book" src="./Book-Cover/Pride-and-Prejudice-Book-Cover.jpg" alt="Pride and Prejudice">
             </a>
         </div>
+        <!-- Book Decription -->
+        <import-book-description></import-book-description>
         <!-- JavaScript -->
         <!-- Templates -->
         <script src="./JavaScript/Templates.js"></script>
         <!-- Sidenav -->
         <script src="./JavaScript/Sidenav.js"></script>
-        <!-- Android Books -->
-        <script src="./JavaScript/Android-Categories/Fiction.js"></script>
+        <!-- Book Descriptions -->
+        <script src="./JavaScript/Book-Description/Fiction.js"></script>
     </body>
 </html>

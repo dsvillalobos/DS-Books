@@ -54,3 +54,59 @@ class Sidenav extends HTMLElement {
 }
 
 customElements.define("import-sidenav", Sidenav);
+
+class BookDescriptionBox extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `
+            <div class="Book-Description" id="Book-Description">
+                <!-- Close Button -->
+                <a href="javascript:void(0)" class="CloseBTN-Description" onclick="closeDescription()">
+                    <i class="bi bi-arrow-left"></i>
+                </a>
+                <!-- Book Title -->
+                <h2 class="Book-Title" id="Book-Title"></h2>
+                <!-- Book Cover -->
+                <div class="Book-Cover-Description">
+                    <img class="Book-Cover" id="Book-Cover" src="" alt="Book Cover">
+                </div>
+                <!-- Author -->
+                <div class="Description-Text">
+                    <h3 class="Description-Subheading">
+                        Author
+                    </h3>
+                    <span id="Author"></span>
+                </div>
+                <!-- Publication Date -->
+                <div class="Description-Text">
+                    <h3 class="Description-Subheading">
+                        Publication Date
+                    </h3>
+                    <span id="Publication-Date"></span>
+                </div>
+                <!-- Pages -->
+                <div class="Description-Text">
+                    <h3 class="Description-Subheading">
+                        Pages
+                    </h3>
+                    <span id="Pages"></span>
+                </div>
+                <!-- Genre -->
+                <div class="Description-Text">
+                    <h3 class="Description-Subheading">
+                        Genre
+                    </h3>
+                    <span id="Genre"></span>
+                </div>
+                <!-- Read Button -->
+                <a id="Read-Button" href="">
+                    <button class="Read-Button">
+                        <i class="bi bi-book-fill"></i>
+                        Read
+                    </button>
+                </a>
+            </div>
+        `
+    }
+}
+
+customElements.define("import-book-description", BookDescriptionBox);

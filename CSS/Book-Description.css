@@ -1,0 +1,77 @@
+/*CSS*/
+
+.Book-Title {
+    font-size: 26.5px;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+
+.Book-Cover-Description {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.Book-Cover {
+    width: 180px;
+    height: 265px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.Description-Subheading {
+    font-size: 23px;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 10px;
+}
+
+.Description-Text {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.Book-Description {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 2;
+    top: 0%;
+    right: 0%;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.CloseBTN-Description {
+    position: absolute;
+    font-size: 30px;
+    top: 15px;
+    left: 15px;
+    color: black;
+}
+
+.Read-Button {
+    color: white;
+    background-color: #e63946;
+    border-color: transparent;
+    margin-bottom: 25px;
+    width: 35%;
+    font-size: 25px;
+    border-radius: 7.5px;
+    cursor: pointer;
+}
+
+@media all and (max-width: 768px) {
+    .Read-Button {
+        color: white;
+        background-color: #e63946;
+        border-color: transparent;
+        margin-bottom: 25px;
+        width: 75%;
+        font-size: 25px;
+        border-radius: 7.5px;
+    }
+}
