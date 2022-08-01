@@ -28,24 +28,24 @@ class Sidenav extends HTMLElement {
                     <i class="bi bi-x-lg"></i>
                 </a>
                 <!-- Home -->
-                <a href="./index.html" class="Option">
+                <a href="/index.html" class="Option">
                     Home
                 </a>
                 <!-- Categories -->
                 <!-- Adventure -->
-                <a class="Option" href="./Adventure.html">
+                <a class="Option" href="/Category/Adventure.html">
                     Adventure
                 </a>
                 <!-- Fiction -->
-                <a class="Option" href="./Fiction.html">
+                <a class="Option" href="/Category/Fiction.html">
                     Fiction
                 </a>
                 <!-- Romance -->
-                <a class="Option" href="./Romance.html">
+                <a class="Option" href="/Category/Romance.html">
                     Romance
                 </a>
                 <!-- Thriller -->
-                <a class="Option" href="./Thriller.html">
+                <a class="Option" href="/Category/Thriller.html">
                     Thriller
                 </a>
             </div>
