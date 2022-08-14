@@ -28,7 +28,7 @@ class Sidenav extends HTMLElement {
                     <i class="bi bi-x-lg"></i>
                 </a>
                 <!-- Home -->
-                <a href="/index.html" class="Option">
+                <a class="Option" href="/index.html">
                     Home
                 </a>
                 <!-- Categories -->
@@ -47,6 +47,10 @@ class Sidenav extends HTMLElement {
                 <!-- Thriller -->
                 <a class="Option" href="/Category/Thriller.html">
                     Thriller
+                </a>
+                <!-- About -->
+                <a class="Option" href="/About.html">
+                    About
                 </a>
             </div>
         `

@@ -1,0 +1,28 @@
+/*CSS*/
+
+.About-Subheading {
+    font-size: 23px;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 10px;
+}
+
+.About-Text {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Instagram {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin-right: 5px;
+}
+
+.Twitter {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+}

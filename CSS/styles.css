@@ -5,6 +5,10 @@ body {
     background-color: white;
     font-family: sans-serif;
     -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout:none;
+    user-select:none;
+    -moz-user-select:none;
+    -webkit-user-select:none;
 }
 
 .Header {
@@ -68,7 +72,7 @@ body {
     color: white;
     display: block;
     transition: 0.3s;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 .CloseBTN {

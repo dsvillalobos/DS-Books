@@ -1,0 +1,35 @@
+/*CSS*/
+
+.Offline-Icon {
+    font-size: 165px;
+    color: black;
+    text-align: center;
+}
+
+.Offline-Subheading {
+    font-size: 23px;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 10px;
+}
+
+.Offline-Text {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Center-Button {
+    text-align: center;
+}
+
+.Retry-Button {
+    color: white;
+    background-color: #e63946;
+    border-color: transparent;
+    margin-bottom: 25px;
+    width: 35%;
+    font-size: 25px;
+    border-radius: 7.5px;
+    cursor: pointer;
+}
