@@ -67,12 +67,17 @@ body {
 }
 
 .Option {
-    text-decoration: none;
+    list-style: none;
     font-size: 22px;
     color: white;
     display: block;
     transition: 0.3s;
     margin-bottom: 60px;
+}
+
+.Option a {
+    text-decoration: none;
+    color: white;
 }
 
 .CloseBTN {

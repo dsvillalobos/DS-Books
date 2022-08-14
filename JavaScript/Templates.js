@@ -28,30 +28,42 @@ class Sidenav extends HTMLElement {
                     <i class="bi bi-x-lg"></i>
                 </a>
                 <!-- Home -->
-                <a class="Option" href="/index.html">
-                    Home
-                </a>
+                <li class="Option">
+                    <a href="/index.html">
+                        Home
+                    </a>
+                </li>
                 <!-- Categories -->
                 <!-- Adventure -->
-                <a class="Option" href="/Category/Adventure.html">
-                    Adventure
-                </a>
+                <li class="Option">
+                    <a href="/Category/Adventure.html">
+                        Adventure
+                    </a>
+                </li>
                 <!-- Fiction -->
-                <a class="Option" href="/Category/Fiction.html">
-                    Fiction
-                </a>
+                <li class="Option">
+                    <a href="/Category/Fiction.html">
+                        Fiction
+                    </a>
+                </li>
                 <!-- Romance -->
-                <a class="Option" href="/Category/Romance.html">
-                    Romance
-                </a>
+                <li class="Option">
+                    <a href="/Category/Romance.html">
+                        Romance
+                    </a>
+                </li>
                 <!-- Thriller -->
-                <a class="Option" href="/Category/Thriller.html">
-                    Thriller
-                </a>
+                <li class="Option">
+                    <a href="/Category/Thriller.html">
+                        Thriller
+                    </a>
+                </li>
                 <!-- About -->
-                <a class="Option" href="/About.html">
-                    About
-                </a>
+                <li class="Option">
+                    <a href="/Pages/About.html">
+                        About
+                    </a>
+                </li>
             </div>
         `
     }
