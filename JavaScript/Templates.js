@@ -12,7 +12,7 @@ class Header extends HTMLElement {
                     </a>
                 </h1>
             </header>
-        `
+        `;
     }
 }
 
@@ -65,7 +65,7 @@ class Sidenav extends HTMLElement {
                     </a>
                 </li>
             </div>
-        `
+        `;
     }
 }
 
@@ -121,7 +121,7 @@ class BookDescriptionBox extends HTMLElement {
                     </button>
                 </a>
             </div>
-        `
+        `;
     }
 }
 
