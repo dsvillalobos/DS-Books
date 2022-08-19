@@ -16,9 +16,9 @@ DS Books is a library where you can find a variety of books. Your l
 ![DS Books Thriller Category](/Images/Screenshots/SS-Thriller.png)
 ![DS Books The Book Thief](/Images/Screenshots/SS-The-Book-Thief.png)
 
-## Release Notes 0.2.9
+## Release Notes 0.3.0
 - Bug Fixes.
 - New "About" Page.
 - New "Offline" Page.
 - Cross Platform App Support.
-- New Splash Screens
+- New Splash Screens.
