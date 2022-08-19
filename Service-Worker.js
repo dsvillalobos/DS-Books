@@ -4,7 +4,7 @@ self.addEventListener("install", e => {
     e.waitUntil(
         caches.open("Static").then(cache => {
             return cache.addAll([
-                //Files that will be cached to the User's Phone
+                //Cache the Index Page
                 "/",
                 "/index.html",
                 "/CSS/styles.css",
@@ -20,11 +20,6 @@ self.addEventListener("install", e => {
                 "/JavaScript/Templates.js",
                 "/JavaScript/Sidenav.js",
                 "/JavaScript/SW-Register.js",
-                "/about.html",
-                "/CSS/About.css",
-                "/offline.html",
-                "/CSS/Offline.css",
-                "/JavaScript/Offline.js",
 
                 //iOS Splash Screens
                 "/Images/Splash-Screen/iPad-Pro-12.9.png",
@@ -48,6 +43,6 @@ self.addEventListener("fetch", e => {
     e.respondWith(
         caches.match(e.request).then(response => {
             return response || fetch(e.request);
-        }).catch(() => caches.match("/offline.html"))
+        })
     );
 });
