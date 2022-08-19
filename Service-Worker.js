@@ -20,9 +20,9 @@ self.addEventListener("install", e => {
                 "/JavaScript/Templates.js",
                 "/JavaScript/Sidenav.js",
                 "/JavaScript/SW-Register.js",
-                "/Pages/About.html",
+                "/HTML/About.html",
                 "/CSS/About.css",
-                "/Pages/Offline.html",
+                "/HTML/Offline.html",
                 "/CSS/Offline.css",
                 "/JavaScript/Offline.js",
 
@@ -48,6 +48,6 @@ self.addEventListener("fetch", e => {
     e.respondWith(
         caches.match(e.request).then(response => {
             return response || fetch(e.request);
-        }).catch(() => caches.match("/Pages/Offline.html"))
+        }).catch(() => caches.match("/HTML/Offline.html"))
     );
 });
