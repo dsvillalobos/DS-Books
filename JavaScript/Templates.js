@@ -60,7 +60,7 @@ class Sidenav extends HTMLElement {
                 </li>
                 <!-- About -->
                 <li class="Option">
-                    <a href="/About.html">
+                    <a href="/about.html">
                         About
                     </a>
                 </li>
