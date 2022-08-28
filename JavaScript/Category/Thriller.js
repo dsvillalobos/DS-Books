@@ -4,7 +4,7 @@ let OS = navigator.userAgent || navigator.vendor || window.opera;
 let ReadButton = document.getElementById("Read-Button");
 
 function _112263() {
-    openDescription("11.22.63", "/Book-Cover/11.22.63-Book-Cover.jpg", "Stephen King", "2011", "717", "Science Fiction, Thriller");
+    openDescription("11.22.63", "/Book-Cover/11.22.63-Book-Cover.webp", "Stephen King", "2011", "717", "Science Fiction, Thriller");
     ReadButton.setAttribute("href", "/Books/Thriller/11.22.63.pdf");
 
     if (/android/i.test(OS)) {
@@ -13,7 +13,7 @@ function _112263() {
 }
 
 function CrimeandPunishment() {
-    openDescription("Crime and Punishment", "/Book-Cover/Crime-and-Punishment-Book-Cover.jpg", "Fyodor Dostoevsky", "1866", "490", "Thriller, Fiction");
+    openDescription("Crime and Punishment", "/Book-Cover/Crime-and-Punishment-Book-Cover.webp", "Fyodor Dostoevsky", "1866", "490", "Thriller, Fiction");
     ReadButton.setAttribute("href", "/Books/Thriller/Crime and Punishment.pdf");
 
     if (/android/i.test(OS)) {
@@ -22,7 +22,7 @@ function CrimeandPunishment() {
 }
 
 function DarkMatter() {
-    openDescription("Dark Matter", "/Book-Cover/Dark-Matter-Book-Cover.jpg", "Blake Crouch", "2016", "303", "Science Fiction, Thriller");
+    openDescription("Dark Matter", "/Book-Cover/Dark-Matter-Book-Cover.webp", "Blake Crouch", "2016", "303", "Science Fiction, Thriller");
     ReadButton.setAttribute("href", "/Books/Thriller/Dark Matter.pdf");
 
     if (/android/i.test(OS)) {
@@ -31,7 +31,7 @@ function DarkMatter() {
 }
 
 function Misery() {
-    openDescription("Misery", "/Book-Cover/Misery-Book-COver.jpg", "Stephen King", "1987", "311", "Psychological horror, Thriller");
+    openDescription("Misery", "/Book-Cover/Misery-Book-COver.webp", "Stephen King", "1987", "311", "Psychological horror, Thriller");
     ReadButton.setAttribute("href", "/Books/Thriller/Misery.pdf");
 
     if (/android/i.test(OS)) {
@@ -40,7 +40,7 @@ function Misery() {
 }
 
 function StrangersonaTrain() {
-    openDescription("Strangers on a Train", "/Book-Cover/Strangers-on-a-Train-Book-Cover.jpg", "Patricia Highsmith", "1950", "327", "Thriller");
+    openDescription("Strangers on a Train", "/Book-Cover/Strangers-on-a-Train-Book-Cover.webp", "Patricia Highsmith", "1950", "327", "Thriller");
     ReadButton.setAttribute("href", "/Books/Thriller/Strangers on a Train.pdf");
 
     if (/android/i.test(OS)) {
@@ -49,7 +49,7 @@ function StrangersonaTrain() {
 }
 
 function HelterSkelter() {
-    openDescription("Helter Skelter", "/Book-Cover/Helter-Skelter-Book-Cover.jpg", "Curt Gentry and Vincent Bugliosi", "1974", "733", "Crime, Thriller, Nonfiction");
+    openDescription("Helter Skelter", "/Book-Cover/Helter-Skelter-Book-Cover.webp", "Curt Gentry and Vincent Bugliosi", "1974", "733", "Crime, Thriller, Nonfiction");
     ReadButton.setAttribute("href", "/Books/Thriller/Helter Skelter.pdf");
 
     if (/android/i.test(OS)) {

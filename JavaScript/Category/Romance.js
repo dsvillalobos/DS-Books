@@ -4,7 +4,7 @@ let OS = navigator.userAgent || navigator.vendor || window.opera;
 let ReadButton = document.getElementById("Read-Button");
 
 function TheFaultinourStars() {
-    openDescription("The Fault in our Stars", "/Book-Cover/The-Fault-in-our-Stars-Book-Cover.jpg", "John Green", "2012", "201", "Romance");
+    openDescription("The Fault in our Stars", "/Book-Cover/The-Fault-in-our-Stars-Book-Cover.webp", "John Green", "2012", "201", "Romance");
     ReadButton.setAttribute("href", "/Books/Romance/The Fault in our Stars.pdf");
 
     if (/android/i.test(OS)) {
@@ -13,7 +13,7 @@ function TheFaultinourStars() {
 }
 
 function BookLovers() {
-    openDescription("Book Lovers", "/Book-Cover/Book-Lovers-Book-Cover.jpg", "Emily Henry", "2022", "346", "Romance");
+    openDescription("Book Lovers", "/Book-Cover/Book-Lovers-Book-Cover.webp", "Emily Henry", "2022", "346", "Romance");
     ReadButton.setAttribute("href", "/Books/Romance/Book Lovers.pdf");
 
     if (/android/i.test(OS)) {
@@ -22,7 +22,7 @@ function BookLovers() {
 }
 
 function PrideandPrejudice() {
-    openDescription("Pride and Prejudice", "/Book-Cover/Pride-and-Prejudice-Book-Cover.jpg", "Jane Austen", "1813", "315", "Classics, Fiction, Romance");
+    openDescription("Pride and Prejudice", "/Book-Cover/Pride-and-Prejudice-Book-Cover.webp", "Jane Austen", "1813", "315", "Classics, Fiction, Romance");
     ReadButton.setAttribute("href", "/Books/Romance/Pride and Prejudice.pdf");
 
     if (/android/i.test(OS)) {
@@ -31,7 +31,7 @@ function PrideandPrejudice() {
 }
 
 function JaneEyre() {
-    openDescription("Jane Eyre", "/Book-Cover/Jane-Eyre-Book-Cover.jpg", "Charlotte Brontë", "1847", "508", "Classics, Romance, Fiction");
+    openDescription("Jane Eyre", "/Book-Cover/Jane-Eyre-Book-Cover.webp", "Charlotte Brontë", "1847", "508", "Classics, Romance, Fiction");
     ReadButton.setAttribute("href", "/Books/Romance/Jane Eyre.pdf");
 
     if (/android/i.test(OS)) {
@@ -40,7 +40,7 @@ function JaneEyre() {
 }
 
 function Emma() {
-    openDescription("Emma", "/Book-Cover/Emma-Book-Cover.jpg", "Jane Austen", "1815", "381", "Romance, Classics");
+    openDescription("Emma", "/Book-Cover/Emma-Book-Cover.webp", "Jane Austen", "1815", "381", "Romance, Classics");
     ReadButton.setAttribute("href", "/Books/Romance/Emma.pdf");
 
     if (/android/i.test(OS)) {
@@ -49,7 +49,7 @@ function Emma() {
 }
 
 function ThePhantomoftheOpera() {
-    openDescription("The Phantom of the<br>Opera", "/Book-Cover/The-Phantom-of-the-Opera-Book-Cover.jpg", "Gaston Leroux", "1909", "255", "Horror, Fiction, Romance");
+    openDescription("The Phantom of the<br>Opera", "/Book-Cover/The-Phantom-of-the-Opera-Book-Cover.webp", "Gaston Leroux", "1909", "255", "Horror, Fiction, Romance");
     ReadButton.setAttribute("href", "/Books/Romance/The Phantom of the Opera.pdf");
 
     if (/android/i.test(OS)) {

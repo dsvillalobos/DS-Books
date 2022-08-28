@@ -4,7 +4,7 @@ let OS = navigator.userAgent || navigator.vendor || window.opera;
 let ReadButton = document.getElementById("Read-Button");
 
 function _1984() {
-    openDescription("1984", "/Book-Cover/1984-Book-Cover.jpg", "George Orwell", "1949", "250", "Dystopian, Fiction");
+    openDescription("1984", "/Book-Cover/1984-Book-Cover.webp", "George Orwell", "1949", "250", "Dystopian, Fiction");
     ReadButton.setAttribute("href", "/Books/Fiction/1984.pdf");
 
     if (/android/i.test(OS)) {
@@ -13,7 +13,7 @@ function _1984() {
 }
 
 function TheInvisibleMan() {
-    openDescription("The Invisible Man", "/Book-Cover/The-Invisible-Man-Book-Cover.jpg", "H.G. Wells", "1897", "146", "Science Fiction, Horror");
+    openDescription("The Invisible Man", "/Book-Cover/The-Invisible-Man-Book-Cover.webp", "H.G. Wells", "1897", "146", "Science Fiction, Horror");
     ReadButton.setAttribute("href", "/Books/Fiction/The Invisible Man.pdf");
 
     if (/android/i.test(OS)) {
@@ -22,7 +22,7 @@ function TheInvisibleMan() {
 }
 
 function TheBookThief() {
-    openDescription("The Book Thief", "/Book-Cover/The-Book-Thief-Book-Cover.jpg", "Markus Zusak", "2005", "576", "Fiction");
+    openDescription("The Book Thief", "/Book-Cover/The-Book-Thief-Book-Cover.webp", "Markus Zusak", "2005", "576", "Fiction");
     ReadButton.setAttribute("href", "/Books/Fiction/The Book Thief.pdf");
 
     if (/android/i.test(OS)) {
@@ -31,7 +31,7 @@ function TheBookThief() {
 }
 
 function Fahrenheit451() {
-    openDescription("Fahrenheit 451", "/Book-Cover/Fahrenheit-451-Book-Cover.jpg", "Ray Bradbury", "1953", "123", "Dystopian, Fiction");
+    openDescription("Fahrenheit 451", "/Book-Cover/Fahrenheit-451-Book-Cover.webp", "Ray Bradbury", "1953", "123", "Dystopian, Fiction");
     ReadButton.setAttribute("href", "/Books/Fiction/Fahrenheit 451.pdf");
 
     if (/android/i.test(OS)) {
@@ -40,7 +40,7 @@ function Fahrenheit451() {
 }
 
 function TheMartian() {
-    openDescription("The Martian", "/Book-Cover/The-Martian-Book-Cover.jpg", "Andy Weir", "2011", "318", "Fiction, Adventure");
+    openDescription("The Martian", "/Book-Cover/The-Martian-Book-Cover.webp", "Andy Weir", "2011", "318", "Fiction, Adventure");
     ReadButton.setAttribute("href", "/Books/Fiction/The Martian.pdf");
 
     if (/android/i.test(OS)) {
@@ -49,7 +49,7 @@ function TheMartian() {
 }
 
 function PrideandPrejudice() {
-    openDescription("Pride and Prejudice", "/Book-Cover/Pride-and-Prejudice-Book-Cover.jpg", "Jane Austen", "1813", "315", "Classics, Fiction, Romance");
+    openDescription("Pride and Prejudice", "/Book-Cover/Pride-and-Prejudice-Book-Cover.webp", "Jane Austen", "1813", "315", "Classics, Fiction, Romance");
     ReadButton.setAttribute("href", "/Books/Fiction/Pride and Prejudice.pdf");
 
     if (/android/i.test(OS)) {

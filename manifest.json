@@ -6,6 +6,7 @@
     "background_color": "#FFFFFF",
     "theme_color": "#E63946",
     "display": "standalone",
+    "lang": "en-US",
     "icons": [
         {
             "src": "/Images/Icons/Icon-192.png",

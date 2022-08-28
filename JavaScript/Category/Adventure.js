@@ -4,7 +4,7 @@ let OS = navigator.userAgent || navigator.vendor || window.opera;
 let ReadButton = document.getElementById("Read-Button");
 
 function TreasureIsland() {
-    openDescription("Treasure Island", "/Book-Cover/Treasure-Island-Book-Cover.jpg", "Robert Louis Stevenson", "1883", "266", "Adventure, Fiction");
+    openDescription("Treasure Island", "/Book-Cover/Treasure-Island-Book-Cover.webp", "Robert Louis Stevenson", "1883", "266", "Adventure, Fiction");
     ReadButton.setAttribute("href", "/Books/Adventure/Treasure Island.pdf");
 
     if (/android/i.test(OS)) {
@@ -13,7 +13,7 @@ function TreasureIsland() {
 }
 
 function _20000LeaguesUndertheSea() {
-    openDescription("20000 Leagues Under<br>the Sea", "/Book-Cover/20000-Leagues-Under-the-Sea-Book-Cover.jpg", "Jules Verne", "1870", "297", "Science Fiction, Adventure");
+    openDescription("20000 Leagues Under<br>the Sea", "/Book-Cover/20000-Leagues-Under-the-Sea-Book-Cover.webp", "Jules Verne", "1870", "297", "Science Fiction, Adventure");
     ReadButton.setAttribute("href", "/Books/Adventure/20000 Leagues Under the Sea.pdf");
 
     if (/android/i.test(OS)) {
@@ -22,7 +22,7 @@ function _20000LeaguesUndertheSea() {
 }
 
 function TheWarofTheWorlds() {
-    openDescription("The War of the Worlds", "/Book-Cover/The-War-of-the-Worlds-Book-Cover.jpg", "H.G. Wells", "1897", "157", "Adventure, Fiction");
+    openDescription("The War of the Worlds", "/Book-Cover/The-War-of-the-Worlds-Book-Cover.webp", "H.G. Wells", "1897", "157", "Adventure, Fiction");
     ReadButton.setAttribute("href", "/Books/Adventure/The War of the Worlds.pdf");
 
     if (/android/i.test(OS)) {
@@ -31,7 +31,7 @@ function TheWarofTheWorlds() {
 }
 
 function AroundtheWorldinEightyDays() {
-    openDescription("Around the World in<br>Eighty Days", "/Book-Cover/Around-the-World-in-Eighty-Days-Book-Cover.jpg", "Jules Verne", "1872", "201", "Adventure");
+    openDescription("Around the World in<br>Eighty Days", "/Book-Cover/Around-the-World-in-Eighty-Days-Book-Cover.webp", "Jules Verne", "1872", "201", "Adventure");
     ReadButton.setAttribute("href", "/Books/Adventure/Around the World in 80 Days.pdf");
 
     if (/android/i.test(OS)) {
@@ -40,7 +40,7 @@ function AroundtheWorldinEightyDays() {
 }
 
 function TheAlchemist() {
-    openDescription("The Alchemist", "/Book-Cover/The-Alchemist-Book-Cover.jpg", "Paulo Coelho", "1988", "125", "Quest, Adventure, Fantasy");
+    openDescription("The Alchemist", "/Book-Cover/The-Alchemist-Book-Cover.webp", "Paulo Coelho", "1988", "125", "Quest, Adventure, Fantasy");
     ReadButton.setAttribute("href", "/Books/Adventure/The Alchemist.pdf");
 
     if (/android/i.test(OS)) {
@@ -49,7 +49,7 @@ function TheAlchemist() {
 }
 
 function TheMartian() {
-    openDescription("The Martian", "/Book-Cover/The-Martian-Book-Cover.jpg", "Andy Weir", "2011", "318", "Fiction, Adventure");
+    openDescription("The Martian", "/Book-Cover/The-Martian-Book-Cover.webp", "Andy Weir", "2011", "318", "Fiction, Adventure");
     ReadButton.setAttribute("href", "/Books/Adventure/The Martian.pdf");
 
     if (/android/i.test(OS)) {
