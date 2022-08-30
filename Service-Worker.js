@@ -8,7 +8,7 @@ self.addEventListener("install", e => {
                 "/",
                 "/index.html",
                 "/CSS/styles.css",
-                "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css",
+                "/CSS/Animations.css",
                 "/Images/Icons/Icon.svg",
                 "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css",
                 "/Images/Icons/Icon-192.png",
