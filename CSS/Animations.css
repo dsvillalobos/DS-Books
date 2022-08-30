@@ -1,8 +1,8 @@
 /*CSS*/
 
 .bounce-in-fwd {
-    -webkit-animation: bounce-in-fwd 0.7s both;
-    animation: bounce-in-fwd 0.7s both;
+    -webkit-animation: bounce-in-fwd 0.85s both;
+    animation: bounce-in-fwd 0.85s both;
 }
 
 @-webkit-keyframes bounce-in-fwd {
