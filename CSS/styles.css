@@ -1,114 +1,120 @@
 /*CSS*/
 
 body {
-    margin: 0%;
-    background-color: white;
-    font-family: sans-serif;
-    -webkit-tap-highlight-color: transparent;
-    -webkit-touch-callout: none;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
+  margin: 0%;
+  background-color: white;
+  font-family: sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
 }
 
 .Header {
-    background-color: #E63946;
-    font-size: 25px;
-    text-align: center;
-    vertical-align: middle;
-    z-index: 1;
-    margin-bottom: 25px;
-    top: 0%;
-    position: sticky;
-    position: -webkit-sticky;
+  background-color: #e63946;
+  font-size: 25px;
+  text-align: center;
+  vertical-align: middle;
+  z-index: 1;
+  margin-bottom: 25px;
+  top: 0%;
+  position: sticky;
+  position: -webkit-sticky;
 }
 
 .Title {
-    margin-top: 0%;
-    margin-bottom: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
 }
 
 .Title a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .Subheading {
-    font-size: 23px;
-    margin-bottom: 25px;
-    text-align: center;
-    vertical-align: middle;
+  font-size: 23px;
+  margin-bottom: 25px;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .Category {
-    text-align: center;
-    margin-bottom: 25px;
+  text-align: center;
+  margin-bottom: 25px;
 }
 
 .Category img {
-    width: 210px;
-    height: 210px;
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  width: 210px;
+  height: 210px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .Sidenav {
-    height: 100%;
-    width: 0%;
-    position: fixed;
-    z-index: 2;
-    top: 0%;
-    left: 0%;
-    background-color: #E63946;
-    overflow-x: hidden;
-    padding-top: 60px;
-    transition: 0.5s;
-    text-align: center;
+  height: 100%;
+  width: 0%;
+  position: fixed;
+  z-index: 2;
+  top: 0%;
+  left: 0%;
+  background-color: #e63946;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+  text-align: center;
 }
 
 .Option {
-    list-style: none;
-    font-size: 22px;
-    color: white;
-    display: block;
-    transition: 0.3s;
-    margin-bottom: 60px;
+  list-style: none;
+  font-size: 22px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  margin-bottom: 60px;
 }
 
 .Option a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .CloseBTN {
-    position: absolute;
-    font-size: 30px;
-    top: 15px;
-    right: 15px;
-    color: white;
+  position: absolute;
+  font-size: 30px;
+  top: 15px;
+  right: 15px;
+  color: white;
 }
 
 .Book-Row {
-    text-align: center;
-    margin-bottom: 25px;
+  text-align: center;
+  margin-bottom: 25px;
 }
 
 .Book-Row a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .First-Book {
-    width: 130px;
-    height: 215px;
-    margin-right: 20px;
-    border-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  width: 130px;
+  height: 215px;
+  margin-right: 20px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .Second-Book {
-    width: 130px;
-    height: 215px;
-    margin-left: 20px;
-    border-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  width: 130px;
+  height: 215px;
+  margin-left: 20px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }

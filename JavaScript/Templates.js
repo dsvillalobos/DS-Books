@@ -2,8 +2,8 @@
 
 //Header
 class Header extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
+  connectedCallback() {
+    this.innerHTML = `
             <header class="Header">
                 <h1 class="Title scale-in-center">
                     <a href="javascript:void(0)" onclick="openSidenav()">
@@ -13,15 +13,15 @@ class Header extends HTMLElement {
                 </h1>
             </header>
         `;
-    }
+  }
 }
 
 customElements.define("import-header", Header);
 
 //Sidenav
 class Sidenav extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
+  connectedCallback() {
+    this.innerHTML = `
             <div class="Sidenav" id="Sidenav">
                 <!-- Close Button -->
                 <a href="javascript:void(0)" class="CloseBTN" onclick="closeSidenav()">
@@ -58,6 +58,12 @@ class Sidenav extends HTMLElement {
                         Thriller
                     </a>
                 </li>
+                <!-- Tech -->
+                <li class="Option">
+                    <a href="/Category/Tech.html">
+                        Tech
+                    </a>
+                </li>
                 <!-- About -->
                 <li class="Option">
                     <a href="/Pages/About.html">
@@ -66,14 +72,14 @@ class Sidenav extends HTMLElement {
                 </li>
             </div>
         `;
-    }
+  }
 }
 
 customElements.define("import-sidenav", Sidenav);
 
 class BookDescriptionBox extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
+  connectedCallback() {
+    this.innerHTML = `
             <div class="Book-Description" id="Book-Description">
                 <!-- Close Button -->
                 <a href="javascript:void(0)" class="CloseBTN-Description" onclick="closeDescription()">
@@ -122,7 +128,7 @@ class BookDescriptionBox extends HTMLElement {
                 </a>
             </div>
         `;
-    }
+  }
 }
 
 customElements.define("import-book-description", BookDescriptionBox);
