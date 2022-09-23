@@ -6,7 +6,7 @@ let ReadButton = document.getElementById("Read-Button");
 function TheFaultinourStars() {
   openDescription(
     "The Fault in our Stars",
-    "/Book-Cover/The-Fault-in-our-Stars-Book-Cover.webp",
+    "/Book-Cover/Romance/The-Fault-in-our-Stars-Book-Cover.webp",
     "John Green",
     "2012",
     "201",
@@ -25,7 +25,7 @@ function TheFaultinourStars() {
 function BookLovers() {
   openDescription(
     "Book Lovers",
-    "/Book-Cover/Book-Lovers-Book-Cover.webp",
+    "/Book-Cover/Romance/Book-Lovers-Book-Cover.webp",
     "Emily Henry",
     "2022",
     "346",
@@ -44,7 +44,7 @@ function BookLovers() {
 function PrideandPrejudice() {
   openDescription(
     "Pride and Prejudice",
-    "/Book-Cover/Pride-and-Prejudice-Book-Cover.webp",
+    "/Book-Cover/Romance/Pride-and-Prejudice-Book-Cover.webp",
     "Jane Austen",
     "1813",
     "315",
@@ -63,7 +63,7 @@ function PrideandPrejudice() {
 function JaneEyre() {
   openDescription(
     "Jane Eyre",
-    "/Book-Cover/Jane-Eyre-Book-Cover.webp",
+    "/Book-Cover/Romance/Jane-Eyre-Book-Cover.webp",
     "Charlotte Brontë",
     "1847",
     "508",
@@ -82,7 +82,7 @@ function JaneEyre() {
 function Emma() {
   openDescription(
     "Emma",
-    "/Book-Cover/Emma-Book-Cover.webp",
+    "/Book-Cover/Romance/Emma-Book-Cover.webp",
     "Jane Austen",
     "1815",
     "381",
@@ -101,7 +101,7 @@ function Emma() {
 function ThePhantomoftheOpera() {
   openDescription(
     "The Phantom of the<br>Opera",
-    "/Book-Cover/The-Phantom-of-the-Opera-Book-Cover.webp",
+    "/Book-Cover/Romance/The-Phantom-of-the-Opera-Book-Cover.webp",
     "Gaston Leroux",
     "1909",
     "255",

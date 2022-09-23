@@ -6,7 +6,7 @@ let ReadButton = document.getElementById("Read-Button");
 function TreasureIsland() {
   openDescription(
     "Treasure Island",
-    "/Book-Cover/Treasure-Island-Book-Cover.webp",
+    "/Book-Cover/Adventure/Treasure-Island-Book-Cover.webp",
     "Robert Louis Stevenson",
     "1883",
     "266",
@@ -25,7 +25,7 @@ function TreasureIsland() {
 function _20000LeaguesUndertheSea() {
   openDescription(
     "20000 Leagues Under<br>the Sea",
-    "/Book-Cover/20000-Leagues-Under-the-Sea-Book-Cover.webp",
+    "/Book-Cover/Adventure/20000-Leagues-Under-The-Sea-Book-Cover.webp",
     "Jules Verne",
     "1870",
     "297",
@@ -47,7 +47,7 @@ function _20000LeaguesUndertheSea() {
 function TheWarofTheWorlds() {
   openDescription(
     "The War of the Worlds",
-    "/Book-Cover/The-War-of-the-Worlds-Book-Cover.webp",
+    "/Book-Cover/Adventure/The-War-of-the-Worlds-Book-Cover.webp",
     "H.G. Wells",
     "1897",
     "157",
@@ -66,7 +66,7 @@ function TheWarofTheWorlds() {
 function AroundtheWorldinEightyDays() {
   openDescription(
     "Around the World in<br>Eighty Days",
-    "/Book-Cover/Around-the-World-in-Eighty-Days-Book-Cover.webp",
+    "/Book-Cover/Adventure/Around-the-World-in-Eighty-Days-Book-Cover.webp",
     "Jules Verne",
     "1872",
     "201",
@@ -88,7 +88,7 @@ function AroundtheWorldinEightyDays() {
 function TheAlchemist() {
   openDescription(
     "The Alchemist",
-    "/Book-Cover/The-Alchemist-Book-Cover.webp",
+    "/Book-Cover/Adventure/The-Alchemist-Book-Cover.webp",
     "Paulo Coelho",
     "1988",
     "125",
@@ -107,7 +107,7 @@ function TheAlchemist() {
 function TheMartian() {
   openDescription(
     "The Martian",
-    "/Book-Cover/The-Martian-Book-Cover.webp",
+    "/Book-Cover/Adventure/The-Martian-Book-Cover.webp",
     "Andy Weir",
     "2011",
     "318",

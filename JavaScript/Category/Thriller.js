@@ -6,7 +6,7 @@ let ReadButton = document.getElementById("Read-Button");
 function _112263() {
   openDescription(
     "11.22.63",
-    "/Book-Cover/11.22.63-Book-Cover.webp",
+    "/Book-Cover/Thriller/11.22.63-Book-Cover.webp",
     "Stephen King",
     "2011",
     "717",
@@ -25,7 +25,7 @@ function _112263() {
 function CrimeandPunishment() {
   openDescription(
     "Crime and Punishment",
-    "/Book-Cover/Crime-and-Punishment-Book-Cover.webp",
+    "/Book-Cover/Thriller/Crime-and-Punishment-Book-Cover.webp",
     "Fyodor Dostoevsky",
     "1866",
     "490",
@@ -44,7 +44,7 @@ function CrimeandPunishment() {
 function DarkMatter() {
   openDescription(
     "Dark Matter",
-    "/Book-Cover/Dark-Matter-Book-Cover.webp",
+    "/Book-Cover/Thriller/Dark-Matter-Book-Cover.webp",
     "Blake Crouch",
     "2016",
     "303",
@@ -63,7 +63,7 @@ function DarkMatter() {
 function Misery() {
   openDescription(
     "Misery",
-    "/Book-Cover/Misery-Book-COver.webp",
+    "/Book-Cover/Thriller/Misery-Book-Cover.webp",
     "Stephen King",
     "1987",
     "311",
@@ -82,7 +82,7 @@ function Misery() {
 function StrangersonaTrain() {
   openDescription(
     "Strangers on a Train",
-    "/Book-Cover/Strangers-on-a-Train-Book-Cover.webp",
+    "/Book-Cover/Thriller/Strangers-on-a-Train-Book-Cover.webp",
     "Patricia Highsmith",
     "1950",
     "327",
@@ -101,7 +101,7 @@ function StrangersonaTrain() {
 function HelterSkelter() {
   openDescription(
     "Helter Skelter",
-    "/Book-Cover/Helter-Skelter-Book-Cover.webp",
+    "/Book-Cover/Thriller/Helter-Skelter-Book-Cover.webp",
     "Curt Gentry and Vincent Bugliosi",
     "1974",
     "733",

@@ -6,7 +6,7 @@ let ReadButton = document.getElementById("Read-Button");
 function TheFour() {
   openDescription(
     "The Four",
-    "/Book-Cover/The-Four-Book-Cover.webp",
+    "/Book-Cover/Tech/The-Four-Book-Cover.webp",
     "Scott Galloway",
     "2017",
     "239",
@@ -24,8 +24,8 @@ function TheFour() {
 
 function BlockchainforDummies() {
   openDescription(
-    "Blockchain for Dummies",
-    "/Book-Cover/Blockchain-for-Dummies-Book-Cover.webp",
+    "Blockchain for<br>Dummies",
+    "/Book-Cover/Tech/Blockchain-for-Dummies-Book-Cover.webp",
     "Tiana Laurence",
     "2017",
     "235",
@@ -44,7 +44,7 @@ function BlockchainforDummies() {
 function SteveJobs() {
   openDescription(
     "Steve Jobs",
-    "/Book-Cover/Steve-Jobs-Book-Cover.webp",
+    "/Book-Cover/Tech/Steve-Jobs-Book-Cover.webp",
     "Walter Isaacson",
     "2011",
     "343",
@@ -63,7 +63,7 @@ function SteveJobs() {
 function LifeafterGoogle() {
   openDescription(
     "Life after Google",
-    "/Book-Cover/Life-after-Google-Book-Cover.webp",
+    "/Book-Cover/Tech/Life-after-Google-Book-Cover.webp",
     "George Gilder",
     "2018",
     "278",
@@ -82,7 +82,7 @@ function LifeafterGoogle() {
 function TheSoulofaNewMachine() {
   openDescription(
     "The Soul of a New<br>Machine",
-    "/Book-Cover/The-Soul-of-a-New-Machine-Book-Cover.webp",
+    "/Book-Cover/Tech/The-Soul-of-a-New-Machine-Book-Cover.webp",
     "Tracy Kidder",
     "1981",
     "308",
@@ -101,7 +101,7 @@ function TheSoulofaNewMachine() {
 function HelloWorld() {
   openDescription(
     "Hello World",
-    "/Book-Cover/Hello-World-Book-Cover.webp",
+    "/Book-Cover/Tech/Hello-World-Book-Cover.webp",
     "Hannah Fry",
     "2018",
     "250",

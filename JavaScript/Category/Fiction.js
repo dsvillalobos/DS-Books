@@ -6,7 +6,7 @@ let ReadButton = document.getElementById("Read-Button");
 function _1984() {
   openDescription(
     "1984",
-    "/Book-Cover/1984-Book-Cover.webp",
+    "/Book-Cover/Fiction/1984-Book-Cover.webp",
     "George Orwell",
     "1949",
     "250",
@@ -25,7 +25,7 @@ function _1984() {
 function TheInvisibleMan() {
   openDescription(
     "The Invisible Man",
-    "/Book-Cover/The-Invisible-Man-Book-Cover.webp",
+    "/Book-Cover/Fiction/The-Invisible-Man-Book-Cover.webp",
     "H.G. Wells",
     "1897",
     "146",
@@ -44,7 +44,7 @@ function TheInvisibleMan() {
 function TheBookThief() {
   openDescription(
     "The Book Thief",
-    "/Book-Cover/The-Book-Thief-Book-Cover.webp",
+    "/Book-Cover/Fiction/The-Book-Thief-Book-Cover.webp",
     "Markus Zusak",
     "2005",
     "576",
@@ -63,7 +63,7 @@ function TheBookThief() {
 function Fahrenheit451() {
   openDescription(
     "Fahrenheit 451",
-    "/Book-Cover/Fahrenheit-451-Book-Cover.webp",
+    "/Book-Cover/Fiction/Fahrenheit-451-Book-Cover.webp",
     "Ray Bradbury",
     "1953",
     "123",
@@ -82,7 +82,7 @@ function Fahrenheit451() {
 function TheMartian() {
   openDescription(
     "The Martian",
-    "/Book-Cover/The-Martian-Book-Cover.webp",
+    "/Book-Cover/Fiction/The-Martian-Book-Cover.webp",
     "Andy Weir",
     "2011",
     "318",
@@ -101,7 +101,7 @@ function TheMartian() {
 function PrideandPrejudice() {
   openDescription(
     "Pride and Prejudice",
-    "/Book-Cover/Pride-and-Prejudice-Book-Cover.webp",
+    "/Book-Cover/Fiction/Pride-and-Prejudice-Book-Cover.webp",
     "Jane Austen",
     "1813",
     "315",

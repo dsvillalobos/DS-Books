@@ -35,6 +35,40 @@ self.addEventListener("install", (e) => {
         "/Images/Splash-Screen/iPhone-11.png",
         "/Images/Splash-Screen/iPhone-6-7-8-Plus.png",
         "/Images/Splash-Screen/iPhone-6-7-8.png",
+
+        //Cache the Book Covers
+
+        //Adventure
+        "/Book-Cover/Adventure/Treasure-Island-Book-Cover.webp",
+        "/Book-Cover/Adventure/20000-Leagues-Under-The-Sea-Book-Cover.webp",
+        "/Book-Cover/Adventure/The-War-of-the-Worlds-Book-Cover.webp",
+        "/Book-Cover/Adventure/Around-the-World-in-Eighty-Days-Book-Cover.webp",
+        "/Book-Cover/Adventure/The-Alchemist-Book-Cover.webp",
+        "/Book-Cover/Adventure/The-Martian-Book-Cover.webp",
+
+        //Fiction
+        "/Book-Cover/Fiction/1984-Book-Cover.webp",
+        "/Book-Cover/Fiction/The-Invisible-Man-Book-Cover.webp",
+        "/Book-Cover/Fiction/The-Book-Thief-Book-Cover.webp",
+        "/Book-Cover/Fiction/Fahrenheit-451-Book-Cover.webp",
+        "/Book-Cover/Fiction/The-Martian-Book-Cover.webp",
+        "/Book-Cover/Fiction/Pride-and-Prejudice-Book-Cover.webp",
+
+        //Romance
+        "/Book-Cover/Romance/The-Fault-in-our-Stars-Book-Cover.webp",
+        "/Book-Cover/Romance/Book-Lovers-Book-Cover.webp",
+        "/Book-Cover/Romance/Pride-and-Prejudice-Book-Cover.webp",
+        "/Book-Cover/Romance/Jane-Eyre-Book-Cover.webp",
+        "/Book-Cover/Romance/Emma-Book-Cover.webp",
+        "/Book-Cover/Romance/The-Phantom-of-the-Opera-Book-Cover.webp",
+
+        //Thriller
+        "/Book-Cover/Thriller/11.22.63-Book-Cover.webp",
+        "/Book-Cover/Thriller/Crime-and-Punishment-Book-Cover.webp",
+        "/Book-Cover/Thriller/Dark-Matter-Book-Cover.webp",
+        "/Book-Cover/Thriller/Misery-Book-Cover.webp",
+        "/Book-Cover/Thriller/Strangers-on-a-Train-Book-Cover.webp",
+        "/Book-Cover/Thriller/Helter-Skelter-Book-Cover.webp",
       ]);
     })
   );
