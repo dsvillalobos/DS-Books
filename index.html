@@ -4,6 +4,8 @@
     <title>DS Books | Home</title>
     <!-- CSS -->
     <link rel="stylesheet" href="/CSS/styles.css" />
+    <!-- Book Description CSS -->
+    <link rel="stylesheet" href="/CSS/Book-Description.css" />
     <!-- Animations -->
     <link rel="stylesheet" href="/CSS/Animations.css" />
     <!-- Favicon -->
@@ -102,7 +104,6 @@
       href="/Images/Splash-Screen/iPhone-6-7-8.png"
     />
   </head>
-
   <body>
     <!-- Header -->
     <import-header></import-header>
@@ -110,57 +111,20 @@
     <import-sidenav></import-sidenav>
     <!-- Subheading -->
     <div class="Subheading">What Do You Want To Read Today?</div>
-    <!-- Categories -->
-    <!-- Adventure -->
-    <div class="Category">
-      <a href="/Category/Adventure.html">
-        <img
-          class="scale-in-center"
-          src="/Images/Category-IMG/Adventure.webp"
-          alt="Adventure"
-        />
-      </a>
-    </div>
-    <!-- Fiction -->
-    <div class="Category">
-      <a href="/Category/Fiction.html">
-        <img
-          class="scale-in-center"
-          src="/Images/Category-IMG/Fiction.webp"
-          alt="Fiction"
-        />
-      </a>
-    </div>
-    <!-- Romance -->
-    <div class="Category">
-      <a href="/Category/Romance.html">
-        <img
-          class="scale-in-center"
-          src="/Images/Category-IMG/Romance.webp"
-          alt="Romance"
-        />
-      </a>
-    </div>
-    <!-- Thriller -->
-    <div class="Category">
-      <a href="/Category/Thriller.html">
-        <img
-          class="scale-in-center"
-          src="/Images/Category-IMG/Thriller.webp"
-          alt="Thriller"
-        />
-      </a>
-    </div>
-    <!-- Tech -->
-    <div class="Category">
-      <a href="/Category/Tech.html">
-        <img
-          class="scale-in-center"
-          src="/Images/Category-IMG/Tech.webp"
-          alt="Tech"
-        />
-      </a>
-    </div>
+    <!-- New Books Title -->
+    <h2 class="Slider-Title">New Books 🆕</h2>
+    <!-- New Books -->
+    <import-new-books></import-new-books>
+    <!-- Trending Books Title -->
+    <h2 class="Slider-Title">Trending Books 🔥</h2>
+    <!-- Trending Books -->
+    <import-trending-books></import-trending-books>
+    <!-- Top Categories Title -->
+    <h2 class="Slider-Title">Top Categories 🔝</h2>
+    <!-- Top Categories  -->
+    <import-top-categories-slider></import-top-categories-slider>
+    <!-- Book Description -->
+    <import-book-description></import-book-description>
     <!-- JavaScript -->
     <!-- Templates -->
     <script src="/JavaScript/Templates.js"></script>
@@ -168,5 +132,7 @@
     <script src="/JavaScript/Sidenav.js"></script>
     <!-- Service Worker Register -->
     <script src="/JavaScript/SW-Register.js"></script>
+    <!-- Index Books JS -->
+    <script src="/JavaScript/Index-Books.js"></script>
   </body>
 </html>

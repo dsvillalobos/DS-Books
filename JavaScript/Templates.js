@@ -77,6 +77,7 @@ class Sidenav extends HTMLElement {
 
 customElements.define("import-sidenav", Sidenav);
 
+//Book Description
 class BookDescriptionBox extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `

@@ -137,3 +137,74 @@ function openDescription(
 function closeDescription() {
   document.getElementById("Book-Description").style.width = "0%";
 }
+
+class TechBooks extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
+          <!-- 1st Book Row -->
+          <div class="Book-Row">
+              <!-- The Four -->
+              <a href="javascript:void(0)" onclick="TheFour()">
+                  <img
+                  class="First-Book"
+                  src="/Book-Cover/Tech/The-Four-Book-Cover.webp"
+                  alt="The Four"
+                  loading="lazy"
+                  />
+              </a>
+              <!-- Blockchain for Dummies -->
+              <a href="javascript:void(0)" onclick="BlockchainforDummies()">
+                  <img
+                  class="Second-Book"
+                  src="/Book-Cover/Tech/Blockchain-for-Dummies-Book-Cover.webp"
+                  alt="Blockchain for Dummies"
+                  loading="lazy"
+                  />
+              </a>
+              </div>
+              <!-- 2nd Book Row -->
+              <div class="Book-Row">
+              <!-- Steve Jobs -->
+              <a href="javascript:void(0)" onclick="SteveJobs()">
+                  <img
+                  class="First-Book"
+                  src="/Book-Cover/Tech/Steve-Jobs-Book-Cover.webp"
+                  alt="Steve Jobs"
+                  loading="lazy"
+                  />
+              </a>
+              <!-- Life after Google -->
+              <a href="javascript:void(0)" onclick="LifeafterGoogle()">
+                  <img
+                  class="Second-Book"
+                  src="/Book-Cover/Tech/Life-after-Google-Book-Cover.webp"
+                  alt="Life after Google"
+                  loading="lazy"
+              /></a>
+              </div>
+              <!-- 3rd Book Row -->
+              <div class="Book-Row">
+              <!-- The Soul of a New Machine -->
+              <a href="javascript:void(0)" onclick="TheSoulofaNewMachine()">
+                  <img
+                  class="First-Book"
+                  src="/Book-Cover/Tech/The-Soul-of-a-New-Machine-Book-Cover.webp"
+                  alt="The Soul of a New Machine"
+                  loading="lazy"
+                  />
+              </a>
+              <!-- Hello World -->
+              <a href="javascript:void(0)" onclick="HelloWorld()">
+                  <img
+                  class="Second-Book"
+                  src="/Book-Cover/Tech/Hello-World-Book-Cover.webp"
+                  alt="Hello World"
+                  loading="lazy"
+                  />
+              </a>
+          </div>
+      `;
+  }
+}
+
+customElements.define("import-tech-books", TechBooks);
