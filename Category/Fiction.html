@@ -37,16 +37,74 @@
     <import-sidenav></import-sidenav>
     <!-- Category -->
     <div class="Category">
-      <img
-        class="scale-in-center"
-        src="/Images/Category-IMG/Fiction.webp"
-        alt="Fiction"
-      />
+      <img src="/Images/Category-IMG/Fiction.webp" alt="Fiction" />
     </div>
     <!-- Subheading -->
     <div class="Subheading">Discover Another World</div>
     <!-- Books -->
-    <import-fiction-books></import-fiction-books>
+    <!-- 1st Book Row -->
+    <div class="Book-Row">
+      <!-- 1984 -->
+      <a href="javascript:void(0)" onclick="_1984()">
+        <img
+          class="First-Book"
+          src="/Book-Cover/Fiction/1984-Book-Cover.webp"
+          alt="1984"
+          loading="lazy"
+        />
+      </a>
+      <!-- The Invisible Man -->
+      <a href="javascript:void(0)" onclick="TheInvisibleMan()">
+        <img
+          class="Second-Book"
+          src="/Book-Cover/Fiction/The-Invisible-Man-Book-Cover.webp"
+          alt="The Invisible Man"
+          loading="lazy"
+        />
+      </a>
+    </div>
+    <!-- 2nd Book Row -->
+    <div class="Book-Row">
+      <!-- The Book Thief -->
+      <a href="javascript:void(0)" onclick="TheBookThief()">
+        <img
+          class="First-Book"
+          src="/Book-Cover/Fiction/The-Book-Thief-Book-Cover.webp"
+          alt="The Book Thief"
+          loading="lazy"
+        />
+      </a>
+      <!-- Fahrenheit 451 -->
+      <a href="javascript:void(0)" onclick="Fahrenheit451()">
+        <img
+          class="Second-Book"
+          src="/Book-Cover/Fiction/Fahrenheit-451-Book-Cover.webp"
+          alt="Fahrenheit 451"
+          loading="lazy"
+        />
+      </a>
+    </div>
+    <!-- 3rd Book Row -->
+    <div class="Book-Row">
+      <!-- The Martian -->
+      <a href="javascript:void(0)" onclick="TheMartian()">
+        <img
+          class="First-Book"
+          src="/Book-Cover/Fiction/The-Martian-Book-Cover.webp"
+          alt="The Martian"
+          loading="lazy"
+        />
+      </a>
+      <!-- Pride and Prejudice -->
+      <a href="javascript:void(0)" onclick="PrideandPrejudice()">
+        <img
+          class="Second-Book"
+          src="/Book-Cover/Fiction/Pride-and-Prejudice-Book-Cover.webp"
+          alt="Pride and Prejudice"
+          loading="lazy"
+        />
+      </a>
+    </div>
     <!-- Book Decription -->
     <import-book-description></import-book-description>
     <!-- JavaScript -->
