@@ -1,5 +1,72 @@
 //JavaScript
 
+//Adventure Books
+class AdventureBooks extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
+        <!-- 1st Book Row -->
+        <div class="Book-Row">
+          <!-- Treasure Island -->
+          <a href="javascript:void(0)" onclick="TreasureIsland()">
+            <img
+              class="First-Book"
+              src="/Book-Cover/Adventure/Treasure-Island-Book-Cover.webp"
+              alt="Treasure Island"
+            />
+          </a>
+          <!-- 20000 Leagues Under the Sea -->
+          <a href="javascript:void(0)" onclick="_20000LeaguesUndertheSea()">
+            <img
+              class="Second-Book"
+              src="/Book-Cover/Adventure/20000-Leagues-Under-The-Sea-Book-Cover.webp"
+              alt="20000 Leagues Under the Sea"
+            />
+          </a>
+        </div>
+        <!-- 2nd Book Row -->
+        <div class="Book-Row">
+          <!-- The War of The Worlds -->
+          <a href="javascript:void(0)" onclick="TheWarofTheWorlds()">
+            <img
+              class="First-Book"
+              src="/Book-Cover/Adventure/The-War-of-the-Worlds-Book-Cover.webp"
+              alt="The War of The Worlds"
+            />
+          </a>
+          <!-- Around the World in Eighty Days -->
+          <a href="javascript:void(0)" onclick="AroundtheWorldinEightyDays()">
+            <img
+              class="Second-Book"
+              src="/Book-Cover/Adventure/Around-the-World-in-Eighty-Days-Book-Cover.webp"
+              alt="Around the World in Eighty Days"
+            />
+          </a>
+        </div>
+        <!-- 3rd Book Row -->
+        <div class="Book-Row">
+          <!-- The Alchemist -->
+          <a href="javascript:void(0)" onclick="TheAlchemist()">
+            <img
+              class="First-Book"
+              src="/Book-Cover/Adventure/The-Alchemist-Book-Cover.webp"
+              alt="The Alchemist"
+            />
+          </a>
+          <!-- The Martian -->
+          <a href="javascript:void(0)" onclick="TheMartian()">
+            <img
+              class="Second-Book"
+              src="/Book-Cover/Adventure/The-Martian-Book-Cover.webp"
+              alt="The Martian"
+            />
+          </a>
+        </div>
+      `;
+  }
+}
+
+customElements.define("import-adventure-books", AdventureBooks);
+
 let OS = navigator.userAgent || navigator.vendor || window.opera;
 let ReadButton = document.getElementById("Read-Button");
 
@@ -143,75 +210,3 @@ function openDescription(
 function closeDescription() {
   document.getElementById("Book-Description").style.width = "0%";
 }
-
-class AdventureBooks extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
-          <!-- 1st Book Row -->
-          <div class="Book-Row">
-              <!-- Treasure Island -->
-              <a href="javascript:void(0)" onclick="TreasureIsland()">
-                  <img
-                  class="First-Book"
-                  src="/Book-Cover/Adventure/Treasure-Island-Book-Cover.webp"
-                  alt="Treasure Island"
-                  loading="lazy"
-                  />
-              </a>
-              <!-- 20000 Leagues Under the Sea -->
-              <a href="javascript:void(0)" onclick="_20000LeaguesUndertheSea()">
-                  <img
-                  class="Second-Book"
-                  src="/Book-Cover/Adventure/20000-Leagues-Under-The-Sea-Book-Cover.webp"
-                  alt="20000 Leagues Under the Sea"
-                  loading="lazy"
-                  />
-              </a>
-              </div>
-              <!-- 2nd Book Row -->
-              <div class="Book-Row">
-              <!-- The War of The Worlds -->
-              <a href="javascript:void(0)" onclick="TheWarofTheWorlds()">
-                  <img
-                  class="First-Book"
-                  src="/Book-Cover/Adventure/The-War-of-the-Worlds-Book-Cover.webp"
-                  alt="The War of The Worlds"
-                  loading="lazy"
-                  />
-              </a>
-              <!-- Around the World in Eighty Days -->
-              <a href="javascript:void(0)" onclick="AroundtheWorldinEightyDays()">
-                  <img
-                  class="Second-Book"
-                  src="/Book-Cover/Adventure/Around-the-World-in-Eighty-Days-Book-Cover.webp"
-                  alt="Around the World in Eighty Days"
-                  loading="lazy"
-                  />
-              </a>
-              </div>
-              <!-- 3rd Book Row -->
-              <div class="Book-Row">
-              <!-- The Alchemist -->
-              <a href="javascript:void(0)" onclick="TheAlchemist()">
-                  <img
-                  class="First-Book"
-                  src="/Book-Cover/Adventure/The-Alchemist-Book-Cover.webp"
-                  alt="The Alchemist"
-                  loading="lazy"
-                  />
-              </a>
-              <!-- The Martian -->
-              <a href="javascript:void(0)" onclick="TheMartian()">
-                  <img
-                  class="Second-Book"
-                  src="/Book-Cover/Adventure/The-Martian-Book-Cover.webp"
-                  alt="The Martian"
-                  loading="lazy"
-                  />
-              </a>
-          </div>
-      `;
-  }
-}
-
-customElements.define("import-adventure-books", AdventureBooks);

@@ -1,5 +1,72 @@
 //JavaScript
 
+//Fiction Books
+class FictionBooks extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
+        <!-- 1st Book Row -->
+        <div class="Book-Row">
+          <!-- 1984 -->
+          <a href="javascript:void(0)" onclick="_1984()">
+            <img
+              class="First-Book"
+              src="/Book-Cover/Fiction/1984-Book-Cover.webp"
+              alt="1984"
+            />
+          </a>
+          <!-- The Invisible Man -->
+          <a href="javascript:void(0)" onclick="TheInvisibleMan()">
+            <img
+              class="Second-Book"
+              src="/Book-Cover/Fiction/The-Invisible-Man-Book-Cover.webp"
+              alt="The Invisible Man"
+            />
+          </a>
+        </div>
+        <!-- 2nd Book Row -->
+        <div class="Book-Row">
+          <!-- The Book Thief -->
+          <a href="javascript:void(0)" onclick="TheBookThief()">
+            <img
+              class="First-Book"
+              src="/Book-Cover/Fiction/The-Book-Thief-Book-Cover.webp"
+              alt="The Book Thief"
+            />
+          </a>
+          <!-- Fahrenheit 451 -->
+          <a href="javascript:void(0)" onclick="Fahrenheit451()">
+            <img
+              class="Second-Book"
+              src="/Book-Cover/Fiction/Fahrenheit-451-Book-Cover.webp"
+              alt="Fahrenheit 451"
+            />
+          </a>
+        </div>
+        <!-- 3rd Book Row -->
+        <div class="Book-Row">
+          <!-- The Martian -->
+          <a href="javascript:void(0)" onclick="TheMartian()">
+            <img
+              class="First-Book"
+              src="/Book-Cover/Fiction/The-Martian-Book-Cover.webp"
+              alt="The Martian"
+            />
+          </a>
+          <!-- Pride and Prejudice -->
+          <a href="javascript:void(0)" onclick="PrideandPrejudice()">
+            <img
+              class="Second-Book"
+              src="/Book-Cover/Fiction/Pride-and-Prejudice-Book-Cover.webp"
+              alt="Pride and Prejudice"
+            />
+          </a>
+        </div>
+      `;
+  }
+}
+
+customElements.define("import-fiction-books", FictionBooks);
+
 let OS = navigator.userAgent || navigator.vendor || window.opera;
 let ReadButton = document.getElementById("Read-Button");
 
@@ -137,75 +204,3 @@ function openDescription(
 function closeDescription() {
   document.getElementById("Book-Description").style.width = "0%";
 }
-
-class FictionBooks extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
-      <!-- 1st Book Row -->
-      <div class="Book-Row">
-          <!-- 1984 -->
-          <a href="javascript:void(0)" onclick="_1984()">
-              <img
-              class="First-Book"
-              src="/Book-Cover/Fiction/1984-Book-Cover.webp"
-              alt="1984"
-              loading="lazy"
-              />
-          </a>
-          <!-- The Invisible Man -->
-          <a href="javascript:void(0)" onclick="TheInvisibleMan()">
-              <img
-              class="Second-Book"
-              src="/Book-Cover/Fiction/The-Invisible-Man-Book-Cover.webp"
-              alt="The Invisible Man"
-              loading="lazy"
-              />
-          </a>
-          </div>
-          <!-- 2nd Book Row -->
-          <div class="Book-Row">
-          <!-- The Book Thief -->
-          <a href="javascript:void(0)" onclick="TheBookThief()">
-              <img
-              class="First-Book"
-              src="/Book-Cover/Fiction/The-Book-Thief-Book-Cover.webp"
-              alt="The Book Thief"
-              loading="lazy"
-              />
-          </a>
-          <!-- Fahrenheit 451 -->
-          <a href="javascript:void(0)" onclick="Fahrenheit451()">
-              <img
-              class="Second-Book"
-              src="/Book-Cover/Fiction/Fahrenheit-451-Book-Cover.webp"
-              alt="Fahrenheit 451"
-              loading="lazy"
-              />
-          </a>
-          </div>
-          <!-- 3rd Book Row -->
-          <div class="Book-Row">
-          <!-- The Martian -->
-          <a href="javascript:void(0)" onclick="TheMartian()">
-              <img
-              class="First-Book"
-              src="/Book-Cover/Fiction/The-Martian-Book-Cover.webp"
-              alt="The Martian"
-              loading="lazy"
-              />
-          </a>
-          <!-- Pride and Prejudice -->
-          <a href="javascript:void(0)" onclick="PrideandPrejudice()">
-              <img
-              class="Second-Book"
-              src="/Book-Cover/Fiction/Pride-and-Prejudice-Book-Cover.webp"
-              alt="Pride and Prejudice"
-              loading="lazy"
-              />
-          </a>
-      </div>
-      `;
-  }
-}
-
-customElements.define("import-fiction-books", FictionBooks);
