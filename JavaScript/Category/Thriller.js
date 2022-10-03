@@ -1,5 +1,69 @@
 //JavaScript
 
+class ThrillerBooks extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
+        <!-- 1st Book Row -->
+        <div class="Book-Row">
+          <!-- 11.22.63 -->
+          <a href="javascript:void(0)" onclick="_112263()">
+            <img
+              class="First-Book"
+              src="/Book-Cover/Thriller/11.22.63-Book-Cover.webp"
+              alt="11.22.63"
+            />
+          </a>
+          <!-- Crime and Punishment -->
+          <a href="javascript:void(0)" onclick="CrimeandPunishment()">
+            <img
+              class="Second-Book"
+              src="/Book-Cover/Thriller/Crime-and-Punishment-Book-Cover.webp"
+              alt="Crime and Punishment"
+            />
+          </a>
+        </div>
+        <!-- 2nd Book Row -->
+        <div class="Book-Row">
+          <!-- Dark Matter -->
+          <a href="javascript:void(0)" onclick="DarkMatter()">
+            <img
+              class="First-Book"
+              src="/Book-Cover/Thriller/Dark-Matter-Book-Cover.webp"
+              alt="Dark Matter"
+            />
+          </a>
+          <!-- Misery -->
+          <a href="javascript:void(0)" onclick="Misery()">
+            <img
+              class="Second-Book"
+              src="/Book-Cover/Thriller/Misery-Book-Cover.webp"
+              alt="Misery"
+            />
+          </a>
+        </div>
+        <!-- 3rd Book Row -->
+        <div class="Book-Row">
+          <!-- Strangers on a Train -->
+          <a href="javascript:void(0)" onclick="StrangersonaTrain()">
+            <img
+              class="First-Book"
+              src="/Book-Cover/Thriller/Strangers-on-a-Train-Book-Cover.webp"
+              alt="Strangers on a Train"
+            />
+          </a>
+          <!-- Helter Skelter -->
+          <a href="javascript:void(0)" onclick="HelterSkelter()">
+            <img
+              class="Second-Book"
+              src="/Book-Cover/Thriller/Helter-Skelter-Book-Cover.webp"
+              alt="Helter Skelter"
+            />
+          </a>
+        </div>
+    `;
+  }
+}
+
 customElements.define("import-thriller-books", ThrillerBooks);
 
 let OS = navigator.userAgent || navigator.vendor || window.opera;
