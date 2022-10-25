@@ -5,7 +5,7 @@ class Header extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
             <header class="Header">
-                <h1 class="Title scale-in-center">
+                <h1 class="Title fade-in">
                     <a href="javascript:void(0)" onclick="openSidenav()">
                         <i class="bi bi-book-fill"></i>
                         DS Books
