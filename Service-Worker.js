@@ -9,7 +9,6 @@ self.addEventListener("install", (e) => {
         "/index.html",
         "/CSS/styles.css",
         "/CSS/Book-Description.css",
-        "/CSS/Animations.css",
         "/Images/Icons/Icon.svg",
         "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css",
         "/Images/Icons/Icon-192.png",
