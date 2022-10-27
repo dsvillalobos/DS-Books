@@ -39,24 +39,49 @@ self.addEventListener("install", (e) => {
         "/Book-Cover/Tech/Steve-Jobs-Book-Cover.webp",
 
         //Cache the Trending Books
-        "/Book-Cover/Adventure/The-Martian-Book-Cover.webp",
-        "/Book-Cover/Thriller/11.22.63-Book-Cover.webp",
-        "/Book-Cover/Fiction/The-Book-Thief-Book-Cover.webp",
-        "/Book-Cover/Fiction/1984-Book-Cover.webp",
-        "/Book-Cover/Fiction/Pride-and-Prejudice-Book-Cover.webp",
+        "/Book-Cover/Adventure/The-Martian-Book-Cover.webp", //From the Adventure Category
+        //11.22.63 is already cached
+        //The Book Thief is alredy cached
+        //1984 is alredy cached
+        "/Book-Cover/Fiction/Pride-and-Prejudice-Book-Cover.webp", //From the Fiction Category
 
-        //Cache the Top Categories
+        //Cache the Top Categories' Covers
         "/Images/Category-IMG/Adventure.webp",
         "/Images/Category-IMG/Fiction.webp",
         "/Images/Category-IMG/Romance.webp",
         "/Images/Category-IMG/Thriller.webp",
 
-        //Category JS - All
+        //Category JS - All Categories
         "/JavaScript/Category/Adventure.js",
         "/JavaScript/Category/Fiction.js",
         "/JavaScript/Category/Romance.js",
         "/JavaScript/Category/Thriller.js",
         "/JavaScript/Category/Tech.js",
+
+        //Cache the first 4 Book Covers of each top category
+        //Adventure
+        "/Book-Cover/Adventure/Treasure-Island-Book-Cover.webp",
+        "/Book-Cover/Adventure/20000-Leagues-Under-The-Sea-Book-Cover.webp",
+        "/Book-Cover/Adventure/The-War-of-the-Worlds-Book-Cover.webp",
+        "/Book-Cover/Adventure/Around-the-World-in-Eighty-Days-Book-Cover.webp",
+
+        //Fiction
+        "/Book-Cover/Fiction/1984-Book-Cover.webp",
+        "/Book-Cover/Fiction/The-Invisible-Man-Book-Cover.webp",
+        "/Book-Cover/Fiction/The-Book-Thief-Book-Cover.webp",
+        "/Book-Cover/Fiction/Fahrenheit-451-Book-Cover.webp",
+
+        //Romance
+        "/Book-Cover/Romance/The-Fault-in-our-Stars-Book-Cover.webp",
+        "/Book-Cover/Romance/Book-Lovers-Book-Cover.webp",
+        "/Book-Cover/Romance/Pride-and-Prejudice-Book-Cover.webp",
+        "/Book-Cover/Romance/Jane-Eyre-Book-Cover.webp",
+
+        //Thriller
+        "/Book-Cover/Thriller/11.22.63-Book-Cover.webp",
+        "/Book-Cover/Thriller/Crime-and-Punishment-Book-Cover.webp",
+        "/Book-Cover/Thriller/Dark-Matter-Book-Cover.webp",
+        "/Book-Cover/Thriller/Misery-Book-Cover.webp",
       ]);
     })
   );
