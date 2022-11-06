@@ -72,6 +72,8 @@ body {
   margin-right: 20px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  background-color: #e63946;
+  color: white;
 }
 
 .Card .Card-Book {
@@ -82,6 +84,8 @@ body {
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  background-color: #e63946;
+  color: white;
 }
 
 .Category {
@@ -95,6 +99,8 @@ body {
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  background-color: #e63946;
+  color: white;
 }
 
 .Sidenav {
@@ -149,6 +155,8 @@ body {
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  background-color: #e63946;
+  color: white;
 }
 
 .Second-Book {
@@ -158,4 +166,6 @@ body {
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  background-color: #e63946;
+  color: white;
 }
