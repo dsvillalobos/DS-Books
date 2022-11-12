@@ -4,40 +4,40 @@ let OS = navigator.userAgent || navigator.vendor || window.opera;
 let ReadButton = document.getElementById("Read-Button");
 
 //New Books
-function LifeafterGoogle() {
+function BlockchainforDummies() {
   openDescription(
-    "Life after Google",
-    "/Book-Cover/Tech/Life-after-Google-Book-Cover.webp",
-    "George Gilder",
-    "2018",
-    "278",
+    "Blockchain for<br>Dummies",
+    "/Book-Cover/Tech/Blockchain-for-Dummies-Book-Cover.webp",
+    "Tiana Laurence",
+    "2017",
+    "235",
     "Technology, Blockchain"
   );
-  ReadButton.setAttribute("href", "/Books/Tech/Life after Google.pdf");
+  ReadButton.setAttribute("href", "/Books/Tech/Blockchain for Dummies.pdf");
 
   if (/android/i.test(OS)) {
     ReadButton.setAttribute(
       "href",
-      "https://drive.google.com/file/d/1DmxTONSaQjdZdlpIL0y6Rr87KIjbamoT/view?usp=sharing"
+      "https://drive.google.com/file/d/1r3eL5poWc456BXBqhmHU5ZOA5eeuq_7k/view?usp=sharing"
     );
   }
 }
 
-function TheFour() {
+function TheSoulofaNewMachine() {
   openDescription(
-    "The Four",
-    "/Book-Cover/Tech/The-Four-Book-Cover.webp",
-    "Scott Galloway",
-    "2017",
-    "239",
-    "Technology, Science"
+    "The Soul of a New<br>Machine",
+    "/Book-Cover/Tech/The-Soul-of-a-New-Machine-Book-Cover.webp",
+    "Tracy Kidder",
+    "1981",
+    "308",
+    "Programming, Technology"
   );
-  ReadButton.setAttribute("href", "/Books/Tech/The Four.pdf");
+  ReadButton.setAttribute("href", "/Books/Tech/The Soul of a New Machine.pdf");
 
   if (/android/i.test(OS)) {
     ReadButton.setAttribute(
       "href",
-      "https://drive.google.com/file/d/1mqtRciIwCkuF6CFhrA9sAR254KBFKDfh/view?usp=sharing"
+      "https://drive.google.com/file/d/1mkGt4I-EgvclraZ9tgFBGS36Tej10IZx/view?usp=sharing"
     );
   }
 }

@@ -33,8 +33,8 @@ self.addEventListener("install", (e) => {
         "/Images/Splash-Screen/iPhone-6-7-8.png",
 
         //Cache the New Books
-        "/Book-Cover/Tech/Life-after-Google-Book-Cover.webp",
-        "/Book-Cover/Tech/The-Four-Book-Cover.webp",
+        "/Book-Cover/Tech/Blockchain-for-Dummies-Book-Cover.webp",
+        "/Book-Cover/Tech/The-Soul-of-a-New-Machine-Book-Cover.webp",
         "/Book-Cover/Tech/Hello-World-Book-Cover.webp",
         "/Book-Cover/Tech/Steve-Jobs-Book-Cover.webp",
 
