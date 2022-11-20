@@ -2,10 +2,11 @@
   "name": "DS Books",
   "short_name": "DS Books",
   "description": "DS Books is a free library where you can find a variety of books.",
-  "start_url": "/",
+  "start_url": "./?utm_source=web_app_manifest",
   "background_color": "#FFFFFF",
   "theme_color": "#E63946",
   "display": "standalone",
+  "scope": "/",
   "lang": "en-US",
   "icons": [
     {
