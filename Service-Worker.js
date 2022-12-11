@@ -1,5 +1,7 @@
 //JavaScript
 
+//Version 0.6.6
+
 self.addEventListener("install", (e) => {
   e.waitUntil(
     caches.open("Static").then((cache) => {
