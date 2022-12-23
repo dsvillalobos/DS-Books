@@ -58,10 +58,10 @@ class Sidenav extends HTMLElement {
                         Thriller
                     </a>
                 </li>
-                <!-- Tech -->
+                <!-- All Categories -->
                 <li class="Option">
-                    <a href="/Category/Tech.html">
-                        Tech
+                    <a href="/Pages/All-Categories.html">
+                        All Categories
                     </a>
                 </li>
                 <!-- About -->

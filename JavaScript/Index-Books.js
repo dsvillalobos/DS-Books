@@ -4,78 +4,81 @@ let OS = navigator.userAgent || navigator.vendor || window.opera;
 let ReadButton = document.getElementById("Read-Button");
 
 //New Books
-function BlockchainforDummies() {
+function PeterPan() {
   openDescription(
-    "Blockchain for<br>Dummies",
-    "/Book-Cover/Tech/Blockchain-for-Dummies-Book-Cover.webp",
-    "Tiana Laurence",
-    "2017",
-    "235",
-    "Technology, Blockchain"
+    "Peter Pan",
+    "/Book-Cover/Kids/Peter-Pan-Book-Cover.webp",
+    "James Matthew Barrie",
+    "1911",
+    "137",
+    "Novel, Children's Literature"
   );
-  ReadButton.setAttribute("href", "/Books/Tech/Blockchain for Dummies.pdf");
+  ReadButton.setAttribute("href", "/Books/Kids/Peter Pan.pdf");
 
   if (/android/i.test(OS)) {
     ReadButton.setAttribute(
       "href",
-      "https://drive.google.com/file/d/1r3eL5poWc456BXBqhmHU5ZOA5eeuq_7k/view?usp=sharing"
+      "https://drive.google.com/file/d/1VVc9qRt_OglME_W89JPAd83iNV5bLtAj/view?usp=sharing"
     );
   }
 }
 
-function TheSoulofaNewMachine() {
+function LittleWomen() {
   openDescription(
-    "The Soul of a New<br>Machine",
-    "/Book-Cover/Tech/The-Soul-of-a-New-Machine-Book-Cover.webp",
-    "Tracy Kidder",
-    "1981",
-    "308",
-    "Programming, Technology"
+    "Little Women",
+    "/Book-Cover/Kids/Little-Women-Book-Cover.webp",
+    "Louisa May Alcott",
+    "1868",
+    "483",
+    "Comedy, Children's Literature"
   );
-  ReadButton.setAttribute("href", "/Books/Tech/The Soul of a New Machine.pdf");
+  ReadButton.setAttribute("href", "/Books/Kids/Little Women.pdf");
 
   if (/android/i.test(OS)) {
     ReadButton.setAttribute(
       "href",
-      "https://drive.google.com/file/d/1mkGt4I-EgvclraZ9tgFBGS36Tej10IZx/view?usp=sharing"
+      "https://drive.google.com/file/d/1FKqmVIdaSxEDcKGb6MWN7769Qd5TVEsS/view?usp=sharing"
     );
   }
 }
 
-function HelloWorld() {
+function RebelionEnLaGranja() {
   openDescription(
-    "Hello World",
-    "/Book-Cover/Tech/Hello-World-Book-Cover.webp",
-    "Hannah Fry",
-    "2018",
-    "250",
-    "Technology, Science"
+    "Rebelión en la Granja",
+    "/Book-Cover/In Spanish/Rebelion-en-la-Granja-Book-Cover.webp",
+    "George Orwell",
+    "1945",
+    "64",
+    "Satire, Allegory, Fable"
   );
-  ReadButton.setAttribute("href", "/Books/Tech/Hello World.pdf");
+  ReadButton.setAttribute(
+    "href",
+    "/Books/In Spanish/Rebelion en la Granja.pdf"
+  );
 
   if (/android/i.test(OS)) {
     ReadButton.setAttribute(
       "href",
-      "https://drive.google.com/file/d/1AeS-Otp3bZwBBhcy9k1dXYNLL7GKrcb5/view?usp=sharing"
+      "https://drive.google.com/file/d/1TJpZ6doD7JsqpQp9Zf67GEe_arPi05Pn/view?usp=sharing"
     );
   }
 }
 
-function SteveJobs() {
+function ElGatoNegro() {
   openDescription(
-    "Steve Jobs",
-    "/Book-Cover/Tech/Steve-Jobs-Book-Cover.webp",
-    "Walter Isaacson",
-    "2011",
-    "343",
-    "Technology, Science"
+    "El Gato Negro",
+    "/Book-Cover/In Spanish/El-Gato-Negro-Book-Cover.webp",
+    "Edgar Allan Poe",
+    "1843",
+    "9",
+    "Horror"
   );
-  ReadButton.setAttribute("href", "/Books/Tech/Steve Jobs.pdf");
+  ReadButton.setAttribute("href", "/Books/In Spanish/El Gato Negro.pdf");
 
   if (/android/i.test(OS)) {
     ReadButton.setAttribute(
       "href",
-      "https://drive.google.com/file/d/1Rqi4-yHFjjB-MG0CKW9q5bXTT4w1QiBT/view?usp=sharing"
+      "https://drive.google.com/file/d/1lA1tFneAeNDd4Bc884qkEEtGENNj60Wy/view?usp=sharing"
     );
   }
 }
