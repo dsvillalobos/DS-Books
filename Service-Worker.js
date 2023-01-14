@@ -1,6 +1,6 @@
 //JavaScript
 
-//DS Books Version 0.7.2
+//DS Books Version 0.7.3
 
 self.addEventListener("install", (e) => {
   e.waitUntil(
@@ -109,9 +109,6 @@ self.addEventListener("install", (e) => {
         "/Book-Cover/Tech/Life-after-Google-Book-Cover.webp",
         "/Book-Cover/Tech/The-Soul-of-a-New-Machine-Book-Cover.webp",
         "/Book-Cover/Tech/Hello-World-Book-Cover.webp",
-
-        //Test
-        "/Category/Adventure.html",
       ]);
     })
   );
