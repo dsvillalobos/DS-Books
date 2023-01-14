@@ -17,9 +17,10 @@ DS Books is a library where you can find a variety of books. Your l
 ![DS Books Thriller Category](/Images/Screenshots/SS-Thriller.png)
 ![DS Books The Book Thief](/Images/Screenshots/SS-The-Book-Thief.png)
 
-## Release Notes 0.7.0
+## Release Notes 0.7.1
 
 - Bug Fixes.
 - New Categories.
+- New Categories' Covers.
 - New "All Categories" Page.
 - Improved Performance.

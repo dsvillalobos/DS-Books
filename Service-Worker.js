@@ -1,6 +1,6 @@
 //JavaScript
 
-//DS Books Version 0.7.0
+//DS Books Version 0.7.1
 
 self.addEventListener("install", (e) => {
   e.waitUntil(
